@@ -1,0 +1,70 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  margin: 0;
+  font-size: 1.6rem;
+}
+.container{
+  width: 1000px;
+  background: coral;
+  display: flex;
+}
+.item{
+  height: 200px;
+}
+
+
+
+.item1{
+  background: pink;
+  flex:3;
+}
+.item2{
+  background: skyblue;
+  flex: 2;
+}
+
+.measure {
+  display: flex;
+  width: 1000px;
+}
+.measure div {
+  width: 100px;
+  box-sizing: border-box;
+  padding: 8px;
+  text-align: right;
+}
+.measure div + div {
+  border-left: 1px solid black;
+}
+.measure div:nth-of-type(1) {
+  background-color: #00ff00;
+}
+.measure div:nth-of-type(2) {
+  background-color: #00ff00;
+}
+.measure div:nth-of-type(3) {
+  background-color: #00ff00;
+}
+.measure div:nth-of-type(4) {
+  background-color: #00ee00;
+}
+.measure div:nth-of-type(5) {
+  background-color: #00dd00;
+}
+.measure div:nth-of-type(6) {
+  background-color: #00cc00;
+}
+.measure div:nth-of-type(7) {
+  background-color: #00bb00;
+}
+.measure div:nth-of-type(8) {
+  background-color: #00aa00;
+}
+.measure div:nth-of-type(9) {
+  background-color: #009900;
+}
+.measure div:nth-of-type(10) {
+  background-color: #008800;
+}
